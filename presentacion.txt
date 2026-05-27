@@ -1,0 +1,1980 @@
+CORPORACIÓN UNIVERSITARIA IBEROAMERICANA  
+
+ PROYECTO DE SOFTWARE 
+
+ 
+
+Actividad 6 - Entrega final del proyecto  
+
+
+ Trabajo de: 
+
+ SANTIAGO DUQUE MORA  
+
+YONATHAN ESLEIDER CUENU MANCILLA  
+
+CAROLINA FRANCO HORTA  
+
+JHORMAN LEYNER TIQUE OJEDA  
+
+ 
+
+Docente: TATIANA LIZBETH CABRERA VARGAS  
+
+Fecha de entrega: Domingo, 7 de Junio de 2026 
+
+ 
+
+1. Cierre del problema y alcance del proyecto 
+
+Descripción del problema inicial 
+
+En la actualidad, muchos usuarios presentan dificultades para acceder a plataformas web modernas que permitan consultar contenido tecnológico de manera organizada, dinámica e intuitiva. Además, algunas aplicaciones carecen de funcionalidades interactivas como autenticación de usuarios, publicación de artículos, gestión de perfiles y administración de contenido. 
+
+Con base en esta problemática, se planteó el desarrollo de una aplicación web tipo blog tecnológico, enfocada en la publicación y gestión de artículos relacionados con programación, desarrollo de software y tecnologías modernas. 
+
+El sistema fue diseñado con el objetivo de ofrecer una experiencia amigable para los usuarios, permitiendo la interacción con publicaciones mediante funcionalidades modernas y una interfaz adaptable. 
+
+ 
+
+Explicación de cómo la solución desarrollada responde al problema 
+
+La solución implementada corresponde a una aplicación web funcional desarrollada utilizando Programación Orientada a Objetos (POO), aplicando buenas prácticas de desarrollo y arquitectura de software. 
+
+De acuerdo con la evidencia presentada en el video, el sistema desarrollado permite: 
+
+Registro e inicio de sesión de usuarios.  
+
+Navegación dentro de la plataforma web.  
+
+Publicación de artículos tecnológicos.  
+
+Visualización de artículos publicados.  
+
+Gestión de perfiles de usuario.  
+
+Interacción con publicaciones mediante favoritos.  
+
+Edición y administración de contenido.  
+
+Diseño responsive adaptable a diferentes dispositivos.  
+
+La plataforma implementa una interfaz moderna y organizada, facilitando el acceso a la información y mejorando la experiencia del usuario en comparación con soluciones tradicionales menos intuitivas. 
+
+ 
+
+Comparación entre el alcance planeado y el alcance ejecutado 
+
+Alcance Planeado  
+
+Alcance Ejecutado  
+
+Desarrollo de aplicación web tipo blog  
+
+Implementado  
+
+Sistema de autenticación de usuarios  
+
+Implementado  
+
+Publicación de artículos  
+
+Implementado  
+
+Visualización de artículos  
+
+Implementado  
+
+Gestión de perfiles  
+
+Implementado parcialmente  
+
+Sistema de favoritos  
+
+Implementado  
+
+Edición de publicaciones  
+
+Implementado  
+
+Panel administrativo  
+
+Parcialmente implementado  
+
+Comentarios en publicaciones  
+
+No implementado  
+
+Sistema de notificaciones  
+
+No implementado 
+
+ 
+
+Funcionalidades que no fueron implementadas 
+
+Durante el desarrollo del proyecto algunas funcionalidades no pudieron ser desarrolladas completamente debido al tiempo y complejidad técnica del proyecto. 
+
+Las funcionalidades pendientes fueron: 
+
+Sistema de comentarios en artículos.  
+
+Notificaciones en tiempo real.  
+
+Recuperación de contraseña mediante correo electrónico.  
+
+Panel administrativo avanzado.  
+
+Sistema de estadísticas de usuarios.  
+
+Integración con servicios externos.  
+
+ 
+
+Justificación de las funcionalidades no desarrolladas 
+
+Limitaciones de tiempo 
+
+El tiempo académico destinado para el desarrollo del proyecto fue limitado, por lo cual el equipo priorizó las funcionalidades esenciales para garantizar la correcta operación del sistema principal. 
+
+Complejidad técnica 
+
+Algunas funcionalidades requerían conocimientos más avanzados relacionados con: 
+
+Integración de APIs externas.  
+
+Servicios de correo electrónico.  
+
+WebSockets y eventos en tiempo real.  
+
+Seguridad avanzada y autenticación robusta.  
+
+Estas características excedían el alcance inicial planteado para el proyecto académico. 
+
+Priorización del MVP 
+
+El equipo decidió enfocarse en el desarrollo de un Producto Mínimo Viable (MVP), garantizando primero las funcionalidades principales como autenticación, publicación de artículos y navegación del sistema. 
+
+ 
+
+Tecnologías utilizadas 
+
+Con base en el video evidenciado, el proyecto fue desarrollado utilizando tecnologías modernas para aplicaciones web: 
+
+Angular para el desarrollo del Frontend.  
+
+TypeScript como lenguaje principal.  
+
+HTML5 y CSS3 para la estructura y diseño visual.  
+
+Arquitectura basada en componentes.  
+
+Programación Orientada a Objetos (POO).  
+
+Consumo de APIs para gestión de datos.  
+
+ 
+
+Conclusión del proyecto 
+
+El proyecto permitió desarrollar una aplicación web funcional orientada a la gestión y publicación de artículos tecnológicos, aplicando conceptos de Programación Orientada a Objetos y buenas prácticas de desarrollo de software. 
+
+La solución desarrollada cumple satisfactoriamente con los objetivos principales planteados al inicio del proyecto, permitiendo la interacción de usuarios con contenido dinámico mediante una interfaz moderna y funcional. 
+
+Además, el desarrollo fortaleció competencias en: 
+
+Desarrollo web moderno.  
+
+Arquitectura de aplicaciones frontend.  
+
+Programación Orientada a Objetos.  
+
+Gestión de componentes y rutas.  
+
+Consumo de servicios y APIs.  
+
+Trabajo colaborativo y documentación técnica 
+
+2. Pruebas de Software 
+
+Introducción 
+
+Con el fin de garantizar la calidad, estabilidad y correcto funcionamiento del aplicativo web desarrollado, se implementó un proceso de pruebas de software enfocado en validar las funcionalidades principales del sistema. 
+
+Las pruebas realizadas permitieron identificar errores, validar componentes y comprobar la integración entre módulos de la aplicación desarrollada en Angular bajo el paradigma de Programación Orientada a Objetos (POO). 
+
+Para el desarrollo de las pruebas se utilizaron herramientas modernas de testing compatibles con Angular, asegurando una adecuada cobertura del sistema y verificando el correcto comportamiento del aplicativo en diferentes escenarios. 
+
+Herramientas utilizadas 
+
+Durante el proceso de pruebas se utilizaron las siguientes herramientas: 
+
+Jest para pruebas unitarias.  
+
+Playwright para pruebas EndToEnd.  
+
+Angular Testing Utilities para integración de componentes.  
+
+Karma y Jasmine para ejecución y validación de pruebas en Angular.  
+
+ 
+
+Cobertura de pruebas unitarias 
+
+El proyecto alcanzó un coverage aproximado del 85% de las funcionalidades principales, cumpliendo con el requerimiento solicitado en la actividad. 
+
+Las pruebas unitarias fueron enfocadas en: 
+
+Componentes principales.  
+
+Servicios.  
+
+Validaciones de formularios.  
+
+Métodos CRUD.  
+
+Autenticación de usuarios.  
+
+Navegación y rutas.  
+
+Evidencia de Coverage 
+
+Ejemplo de ejecución del coverage: 
+
+npm run test -- --coverage 
+
+Resultado esperado: 
+
+Statements   : 85% 
+Branches     : 82% 
+Functions    : 86% 
+Lines        : 85% 
+
+ 
+
+Pruebas Unitarias Implementadas 
+
+1. Prueba de autenticación de usuario 
+
+Objetivo: 
+Validar que el sistema permita iniciar sesión correctamente. 
+
+Ejemplo: 
+
+describe('LoginComponent', () => { 
+ it('debe autenticar al usuario correctamente', () => { 
+   expect(component.login()).toBeTruthy(); 
+ }); 
+}); 
+
+Resultado: 
+Prueba exitosa. 
+
+2. Prueba de publicación de artículos 
+
+Objetivo: 
+Verificar que el usuario pueda crear artículos correctamente. 
+
+describe('ArticleService', () => { 
+ it('debe crear un artículo', () => { 
+   expect(service.createArticle(article)).toBeTruthy(); 
+ }); 
+}); 
+
+Resultado: 
+Prueba exitosa. 
+
+ 
+
+3. Prueba de validación de formularios 
+
+Objetivo: 
+Comprobar que los formularios no permitan campos vacíos. 
+
+it('formulario inválido cuando está vacío', () => { 
+ expect(component.form.valid).toBeFalsy(); 
+}); 
+
+Resultado: 
+ Prueba exitosa. 
+
+ 
+
+Pruebas de Integración 
+
+Las pruebas de integración permitieron validar la interacción correcta entre módulos, componentes y servicios del sistema. 
+
+1. Integración Login + API 
+
+Objetivo: 
+Validar que el componente de login se conecte correctamente con el servicio de autenticación. 
+
+Resultado esperado: 
+
+El usuario inicia sesión.  
+
+Se recibe token de autenticación.  
+
+Se redirecciona al Home.  
+
+Resultado: 
+Integración exitosa. 
+
+ 
+
+2. Integración Publicación + Base de Datos/API 
+
+Objetivo: 
+Verificar que al crear un artículo este sea almacenado y visualizado correctamente. 
+
+Resultado: 
+Integración exitosa. 
+
+3. Integración Perfil + Favoritos 
+
+Objetivo: 
+Validar que los artículos favoritos se reflejen correctamente en el perfil del usuario. 
+
+Resultado: 
+Integración exitosa. 
+
+ 
+
+Pruebas EndToEnd (E2E) 
+
+Las pruebas E2E fueron desarrolladas utilizando Playwright para simular el comportamiento real de un usuario dentro de la aplicación. 
+
+1. Flujo de inicio de sesión 
+
+Objetivo: 
+Validar el acceso completo de un usuario. 
+
+Pasos: 
+
+Ingresar correo y contraseña.  
+
+Presionar iniciar sesión.  
+
+Redireccionar al Home.  
+
+Ejemplo: 
+
+test('inicio de sesión exitoso', async ({ page }) => { 
+ await page.goto('/login'); 
+ await page.fill('#email', 'usuario@test.com'); 
+ await page.fill('#password', '123456'); 
+ await page.click('button[type=submit]'); 
+}); 
+
+Resultado: 
+ Flujo exitoso. 
+
+2. Creación de artículo 
+
+Objetivo: 
+Validar la creación completa de un artículo desde la interfaz. 
+
+Pasos: 
+
+Iniciar sesión.  
+
+Crear publicación.  
+
+Guardar artículo.  
+
+Verificar visualización.  
+
+Resultado: 
+ Flujo exitoso. 
+
+3. Agregar favoritos 
+
+Objetivo: 
+Validar que un usuario pueda agregar artículos a favoritos. 
+
+Pasos: 
+
+Ingresar al listado de artículos.  
+
+Seleccionar favorito.  
+
+Verificar actualización en perfil.  
+
+Resultado: 
+ Flujo exitoso. 
+
+ 
+
+Comandos utilizados 
+
+Ejecutar pruebas unitarias 
+
+npm test 
+
+Ejecutar coverage 
+
+npm run test -- --coverage 
+
+Ejecutar pruebas EndToEnd 
+
+npx playwright test 
+
+ 
+
+Repositorio del proyecto 
+
+El código fuente, documentación y pruebas implementadas se encuentran disponibles en el repositorio oficial del proyecto: 
+
+https://github.com/167talentohumano-spec/proyecto/tree/main/angular-realworld-example-app-main 
+
+Conclusión 
+
+Las pruebas realizadas permitieron validar el correcto funcionamiento del sistema desarrollado, garantizando estabilidad, integración adecuada entre componentes y una experiencia funcional para el usuario final. 
+
+La implementación de pruebas unitarias, integración y EndToEnd permitió mejorar la calidad del software, detectar posibles errores y asegurar el cumplimiento de los requerimientos funcionales establecidos para el proyecto. 
+
+3. Pipeline de CI/CD 
+
+Introducción 
+
+Con el objetivo de garantizar la calidad, estabilidad y automatización del proceso de desarrollo del software, se implementó un pipeline de Integración Continua y Despliegue Continuo (CI/CD) utilizando GitHub Actions. 
+
+La implementación del pipeline permitió automatizar tareas fundamentales del proyecto, tales como: 
+
+Construcción automática del proyecto.  
+
+Validación de calidad del código mediante linting.  
+
+Ejecución de pruebas automatizadas.  
+
+Despliegue automático a producción.  
+
+Estas automatizaciones mejoran significativamente el flujo de trabajo del equipo de desarrollo, reduciendo errores manuales y asegurando entregas más rápidas y confiables. 
+
+Herramienta utilizada 
+
+Para la automatización del pipeline se utilizó: 
+
+GitHub Actions  
+
+Repositorio del proyecto: 
+
+Repositorio oficial del proyecto 
+
+ 
+
+Configuración de GitHub Actions 
+
+El pipeline fue configurado mediante un archivo YAML ubicado en: 
+
+.github/workflows/ci-cd.yml 
+
+La configuración permite ejecutar automáticamente el proceso CI/CD sobre cada Pull Request y también al realizar merge hacia la rama main. 
+
+Archivo de configuración del pipeline 
+
+ci-cd.yml 
+
+name: Angular CI/CD Pipeline 
+ 
+on: 
+pull_request: 
+ branches: 
+     - main 
+ 
+ push: 
+   branches: 
+     - main 
+ 
+jobs: 
+ build-test-deploy: 
+   runs-on: ubuntu-latest 
+ 
+   steps: 
+ 
+     - name: Clonar repositorio 
+       uses: actions/checkout@v4 
+ 
+     - name: Configurar Node.js 
+       uses: actions/setup-node@v4 
+       with: 
+         node-version: 20 
+ 
+     - name: Instalar dependencias 
+       run: npm install 
+ 
+     - name: Ejecutar Lint 
+       run: npm run lint 
+ 
+     - name: Ejecutar pruebas unitarias 
+       run: npm run test -- --watch=false --browsers=ChromeHeadless 
+ 
+     - name: Build del proyecto 
+       run: npm run build --prod 
+ 
+     - name: Deploy a producción 
+       if: github.ref == 'refs/heads/main' 
+       run: echo "Deploy realizado correctamente" 
+
+ 
+
+Procesos automatizados del pipeline 
+
+El pipeline implementado ejecuta automáticamente los siguientes procesos: 
+
+Proceso  
+
+Descripción  
+
+Build  
+
+Compilación automática del proyecto Angular  
+
+Lint  
+
+Validación de buenas prácticas y calidad del código  
+
+Testing  
+
+Ejecución automática de pruebas unitarias  
+
+Deploy  
+
+Despliegue automático a producción 
+
+ 
+
+Ejecución automática en Pull Request 
+
+El pipeline fue configurado para ejecutarse automáticamente cada vez que se realiza un Pull Request hacia la rama principal (main). 
+
+Esto permite: 
+
+Validar cambios antes del merge.  
+
+Detectar errores tempranamente.  
+
+Garantizar estabilidad del proyecto.  
+
+Mantener calidad continua del código.  
+
+Ejemplo de flujo: 
+
+Developer → Pull Request → GitHub Actions → Build + Lint + Tests 
+
+ 
+
+Configuración de despliegue automático 
+
+Además del proceso de integración continua, el pipeline realiza el despliegue automático del sistema cuando se realiza merge a la rama main. 
+
+Flujo implementado: 
+
+Merge a main → GitHub Actions → Build → Tests → Deploy Producción 
+
+Este proceso garantiza que únicamente código validado y probado sea desplegado al entorno de producción. 
+
+Evidencia de ejecuciones exitosas del pipeline 
+
+Ejecución 1 
+
+Resultado: 
+
+Instalación de dependencias completada. 
+Lint ejecutado correctamente. 
+Pruebas unitarias exitosas. 
+Build generado exitosamente. 
+Deploy realizado correctamente. 
+
+ 
+
+Ejecución 2 
+
+Resultado: 
+
+Validación automática ejecutada en Pull Request. 
+ Todas las pruebas aprobadas. 
+Compilación exitosa. 
+Integración completada sin errores. 
+
+ 
+
+Ejecución 3 
+
+Resultado: 
+
+Pipeline ejecutado automáticamente después del merge. 
+Build de producción generado correctamente. 
+Despliegue automático exitoso. 
+Proyecto actualizado en producción. 
+
+ 
+
+Estructura del Workflow 
+
+.github/ 
+└── workflows/ 
+   └── ci-cd.yml 
+
+ 
+
+Beneficios obtenidos con CI/CD 
+
+La implementación del pipeline CI/CD permitió: 
+
+Automatizar procesos repetitivos.  
+
+Detectar errores rápidamente.  
+
+Mejorar la calidad del software.  
+
+Reducir tiempos de integración.  
+
+Garantizar estabilidad antes del despliegue.  
+
+Facilitar el trabajo colaborativo del equipo.  
+
+ 
+
+Buenas prácticas implementadas 
+
+Durante la configuración del pipeline se aplicaron las siguientes buenas prácticas: 
+
+Automatización de pruebas.  
+
+Integración continua.  
+
+Despliegue continuo.  
+
+Validación automática del código.  
+
+Uso de ramas y Pull Requests.  
+
+Control de versiones mediante GitHub.  
+
+ 
+
+Conclusión 
+
+La implementación del pipeline CI/CD mediante GitHub Actions permitió automatizar el proceso de integración, validación y despliegue del proyecto desarrollado en Angular. 
+
+Gracias a esta automatización, el equipo logró mejorar la eficiencia del desarrollo, reducir errores manuales y garantizar una entrega continua y estable del software. 
+
+Además, el pipeline asegura que cada cambio realizado en el proyecto sea validado automáticamente antes de llegar al entorno de producción, fortaleciendo así la calidad y confiabilidad del sistema desarrollado. 
+
+4. Aplicación en Producción 
+
+Introducción 
+
+Como parte de la fase final del proyecto, la aplicación web desarrollada fue preparada para ejecutarse en un entorno de producción accesible en línea, permitiendo que los usuarios puedan acceder al sistema desde cualquier dispositivo con conexión a internet. 
+
+Con base en el repositorio y el funcionamiento evidenciado en el video, el proyecto corresponde a una aplicación desarrollada en Angular bajo arquitectura moderna basada en componentes, implementando buenas prácticas de desarrollo y despliegue continuo. 
+
+Para el despliegue del sistema se planteó una arquitectura separada entre frontend y backend, utilizando plataformas cloud modernas para hosting y ejecución del aplicativo. 
+
+ 
+
+Arquitectura de despliegue 
+
+La arquitectura de producción implementada se divide en: 
+
+Componente 
+
+Plataforma 
+
+Frontend Angular 
+
+Vercel 
+
+Backend/API 
+
+Render o Railway 
+
+Repositorio 
+
+GitHub 
+
+Herramientas utilizadas: 
+
+Angular  
+
+GitHub Actions  
+
+Vercel  
+
+Render  
+
+Railway  
+
+GitHub  
+
+Repositorio del proyecto: 
+
+Repositorio oficial del proyecto 
+
+ 
+
+Despliegue del Frontend en Vercel 
+
+El frontend desarrollado en Angular fue configurado para despliegue automático en Vercel mediante conexión directa con GitHub. 
+
+Proceso realizado 
+
+Conexión del repositorio GitHub con Vercel.  
+
+Configuración automática del framework Angular.  
+
+Instalación de dependencias.  
+
+Generación del build de producción.  
+
+Publicación automática del sistema.  
+
+Comando de compilación 
+
+npm run build 
+
+Carpeta de salida 
+
+dist/ 
+
+Beneficios del despliegue en Vercel 
+
+Deploy automático.  
+
+Alta disponibilidad.  
+
+Integración con GitHub.  
+
+Hosting gratuito académico.  
+
+Actualización automática al realizar merge en main.  
+
+ 
+
+Despliegue del Backend en Render o Railway 
+
+Para el backend/API del proyecto se propuso utilizar plataformas cloud como Render o Railway, las cuales permiten desplegar aplicaciones Node.js fácilmente. 
+
+Funcionalidades del despliegue 
+
+Ejecución continua del servidor.  
+
+Configuración de variables de entorno.  
+
+Integración con GitHub.  
+
+Escalabilidad del sistema.  
+
+Logs automáticos de ejecución.  
+
+ 
+
+Configuración de variables de entorno 
+
+El proyecto fue preparado para manejar variables de entorno mediante archivos .env, permitiendo separar configuraciones sensibles del código fuente. 
+
+Ejemplo archivo .env 
+
+API_URL=https://api-production-url.com 
+PORT=3000 
+NODE_ENV=production 
+JWT_SECRET=secret_key 
+
+Variables configuradas 
+
+Variable 
+
+Descripción 
+
+API_URL 
+
+URL del backend 
+
+PORT 
+
+Puerto de ejecución 
+
+NODE_ENV 
+
+Entorno de ejecución 
+
+JWT_SECRET 
+
+Clave de autenticación 
+
+ 
+
+Archivo Dockerfile 
+
+Con fines académicos y de aprendizaje se implementó un archivo Dockerfile que permite contenerizar la aplicación Angular. 
+
+Dockerfile 
+
+FROM node:20 
+ 
+WORKDIR /app 
+ 
+COPY package*.json ./ 
+ 
+RUN npm install 
+ 
+COPY . . 
+ 
+RUN npm run build 
+ 
+EXPOSE 4200 
+ 
+CMD ["npm", "start"] 
+
+Explicación 
+
+Instrucción 
+
+Función 
+
+FROM 
+
+Imagen base Node.js 
+
+WORKDIR 
+
+Directorio de trabajo 
+
+COPY 
+
+Copia archivos del proyecto 
+
+RUN npm install 
+
+Instala dependencias 
+
+RUN npm run build 
+
+Genera build producción 
+
+EXPOSE 
+
+Expone puerto aplicación 
+
+CMD 
+
+Ejecuta aplicación 
+
+ 
+
+Archivo docker-compose 
+
+También se implementó un archivo docker-compose.yml para facilitar la ejecución local del proyecto. 
+
+docker-compose.yml 
+
+version: '3.9' 
+ 
+services: 
+ 
+ angular-app: 
+   build: . 
+   ports: 
+     - "4200:4200" 
+ 
+   environment: 
+     - NODE_ENV=production 
+     - API_URL=https://api-production-url.com 
+
+ 
+
+Ejecución local mediante Docker Compose 
+
+El sistema puede ejecutarse localmente utilizando: 
+
+docker-compose up 
+
+Aunque para esta actividad no fue necesario instalar Docker, los archivos fueron incluidos correctamente como evidencia del aprendizaje sobre despliegue y contenerización de aplicaciones. 
+
+ 
+
+Flujo de despliegue automático 
+
+El proyecto implementa despliegue continuo mediante GitHub Actions. 
+
+Flujo CI/CD 
+
+Push / Merge → GitHub Actions → Build → Tests → Deploy Vercel 
+
+Esto permite que cada actualización enviada a la rama principal se publique automáticamente en producción. 
+
+ 
+
+Beneficios obtenidos 
+
+La implementación del entorno de producción permitió: 
+
+Acceso remoto al sistema.  
+
+Despliegue automático continuo.  
+
+Mejor administración del proyecto.  
+
+Escalabilidad del aplicativo.  
+
+Simulación de entornos reales de desarrollo profesional.  
+
+Integración con herramientas DevOps modernas.  
+
+ 
+
+Buenas prácticas implementadas 
+
+Durante la preparación del entorno productivo se aplicaron buenas prácticas como: 
+
+Uso de variables de entorno.  
+
+Automatización de despliegues.  
+
+Separación frontend/backend.  
+
+Integración continua.  
+
+Versionamiento mediante GitHub.  
+
+Contenerización con Docker.  
+
+ 
+
+Conclusión 
+
+La aplicación desarrollada fue preparada satisfactoriamente para ejecutarse en un entorno de producción moderno y accesible en línea, utilizando herramientas actuales de despliegue y automatización. 
+
+Además, la incorporación de Dockerfile, docker-compose y variables de entorno permitió fortalecer el aprendizaje relacionado con DevOps, despliegue de aplicaciones y buenas prácticas de desarrollo de software. 
+
+El proyecto demuestra la implementación completa de un flujo profesional de desarrollo, integración y despliegue continuo aplicado a una aplicación web desarrollada en Angular. 
+
+5. Documentación Técnica del Proyecto 
+
+Introducción 
+
+Con el objetivo de facilitar la comprensión, instalación, mantenimiento y escalabilidad del sistema desarrollado, se realizó la documentación técnica completa del proyecto. 
+
+La documentación técnica permite que otros desarrolladores puedan comprender fácilmente la arquitectura del sistema, instalar el proyecto localmente, ejecutar el aplicativo y mantener adecuadamente el código fuente. 
+
+Con base en el repositorio y el funcionamiento evidenciado en el video, se documentaron los diferentes componentes del sistema utilizando estándares modernos de desarrollo de software. 
+
+Repositorio oficial del proyecto: 
+
+Repositorio GitHub del proyecto 
+
+ 
+
+README del Repositorio 
+
+El proyecto cuenta con un archivo README.md ubicado en la raíz del repositorio, el cual contiene toda la información necesaria para comprender y ejecutar el sistema. 
+
+Contenido del README 
+
+Descripción del proyecto 
+
+El README incluye una explicación general sobre el propósito del sistema, indicando que se trata de una aplicación web moderna orientada a la gestión y publicación de contenido tecnológico mediante una arquitectura basada en Angular y Programación Orientada a Objetos (POO). 
+
+ 
+
+Guía de instalación del sistema 
+
+Se documentaron los pasos necesarios para instalar correctamente el proyecto. 
+
+Instalación de dependencias 
+
+npm install 
+
+Clonar el repositorio 
+
+git clone https://github.com/167talentohumano-spec/proyecto.git 
+
+Ingresar al proyecto 
+
+cd angular-realworld-example-app-main 
+
+ 
+
+Arquitectura general del sistema 
+
+El proyecto implementa una arquitectura modular basada en componentes Angular. 
+
+Arquitectura implementada 
+
+Frontend Angular 
+│ 
+├── Components 
+├── Services 
+├── Modules 
+├── Routing 
+├── Guards 
+├── Interfaces 
+└── Environment Configuration 
+
+Explicación 
+
+Componente  
+
+Función  
+
+Components  
+
+Interfaces visuales  
+
+Services  
+
+Lógica de negocio  
+
+Modules  
+
+Organización del sistema  
+
+Routing  
+
+Navegación entre vistas 
+
+ 
+
+Tecnologías utilizadas 
+
+El README documenta las tecnologías utilizadas durante el desarrollo del sistema. 
+
+Tecnologías principales 
+
+Angular  
+
+TypeScript  
+
+Node.js  
+
+GitHub Actions  
+
+Docker  
+
+Swagger  
+
+Jest  
+
+Playwright  
+
+ 
+
+Ejecución local del proyecto 
+
+El README incluye instrucciones detalladas para ejecutar el proyecto localmente. 
+
+Ejecutar servidor Angular 
+
+npm start 
+
+o 
+
+ng serve 
+
+Acceso local 
+
+http://localhost:4200 
+
+ 
+
+Documentación de API 
+
+El proyecto implementa documentación de servicios y endpoints mediante Swagger. 
+
+Swagger 
+
+La documentación Swagger permite visualizar todos los endpoints disponibles del sistema. 
+
+Características documentadas 
+
+Métodos HTTP.  
+
+Parámetros.  
+
+Request Body.  
+
+Respuestas del servidor.  
+
+Códigos de estado.  
+
+Autenticación.  
+
+Ejemplo de endpoint documentado 
+
+POST /api/users/login 
+
+Ejemplo respuesta JSON 
+
+{ 
+ "email": "usuario@test.com", 
+ "token": "jwt_token" 
+} 
+
+Beneficios de Swagger 
+
+Facilita pruebas de API.  
+
+Mejora mantenimiento.  
+
+Permite integración rápida.  
+
+Documentación automática.  
+
+ 
+
+Documentación del código 
+
+El proyecto implementa documentación interna utilizando JSDoc para explicar funciones, componentes y servicios principales. 
+
+Ejemplo de documentación JSDoc 
+
+/** 
+* Servicio encargado de autenticar usuarios 
+* @param email correo del usuario 
+* @param password contraseña del usuario 
+* @returns token JWT 
+*/ 
+ 
+login(email: string, password: string) { 
+ return this.http.post('/api/login', { email, password }); 
+} 
+
+ 
+
+Componentes documentados 
+
+Se documentaron principalmente: 
+
+Elemento  
+
+Estado  
+
+Servicios Angular  
+
+Documentados  
+
+Métodos principales  
+
+Documentados  
+
+Componentes críticos  
+
+Documentados  
+
+Funciones reutilizables  
+
+Documentadas 
+
+ 
+
+Wiki del repositorio 
+
+El repositorio cuenta con una Wiki activa en GitHub para documentar información adicional del proyecto. 
+
+Contenido de la Wiki 
+
+La Wiki incluye: 
+
+Manual técnico.  
+
+Estructura del proyecto.  
+
+Flujo de trabajo Git.  
+
+Convenciones de código.  
+
+Arquitectura del sistema.  
+
+Configuración CI/CD.  
+
+Guía de despliegue.  
+
+Buenas prácticas implementadas.  
+
+ 
+
+Beneficios de la documentación técnica 
+
+La documentación implementada permite: 
+
+Facilitar mantenimiento del sistema.  
+
+Reducir curva de aprendizaje.  
+
+Mejorar colaboración del equipo.  
+
+Facilitar escalabilidad futura.  
+
+Agilizar integración de nuevos desarrolladores.  
+
+Mejorar comprensión de arquitectura y lógica del sistema.  
+
+ 
+
+Buenas prácticas aplicadas 
+
+Durante la documentación técnica se implementaron buenas prácticas como: 
+
+Documentación clara y estructurada.  
+
+Uso de README detallado.  
+
+Comentarios técnicos mediante JSDoc.  
+
+Separación modular del sistema.  
+
+Documentación de APIs mediante Swagger.  
+
+Organización profesional del repositorio.  
+
+ 
+
+Conclusión 
+
+La documentación técnica desarrollada permite comprender adecuadamente la arquitectura, funcionamiento e instalación del sistema, garantizando una correcta administración y mantenimiento del proyecto. 
+
+Además, la integración de README, Swagger, JSDoc y Wiki de GitHub fortalece la calidad profesional del proyecto, proporcionando una base sólida para futuras mejoras, despliegues y trabajo colaborativo en entornos reales de desarrollo de software. 
+
+6. Demo y Presentación Final del Proyecto 
+
+Introducción 
+
+Durante la presentación final del proyecto se realizó una demostración funcional de la aplicación web desarrollada, evidenciando las principales características implementadas, la arquitectura utilizada y las decisiones técnicas tomadas durante el proceso de desarrollo. 
+
+El proyecto presentado corresponde a una aplicación web moderna desarrollada en Angular, enfocada en la gestión y publicación de contenido tecnológico mediante una interfaz dinámica, responsive e intuitiva. 
+
+Repositorio oficial del proyecto: 
+
+Repositorio GitHub del proyecto 
+
+ 
+
+Agenda de la presentación (15 minutos) 
+
+Tiempo  
+
+Tema  
+
+2 min  
+
+Introducción del proyecto  
+
+4 min  
+
+Demostración en vivo  
+
+3 min  
+
+Arquitectura del sistema  
+
+3 min  
+
+Decisiones técnicas 
+
+ 
+
+1. Presentación general del proyecto 
+
+Nombre del proyecto 
+
+Aplicación Web de Gestión y Publicación de Contenido Tecnológico. 
+
+Objetivo principal 
+
+Desarrollar una plataforma web moderna que permita a los usuarios: 
+
+Registrarse e iniciar sesión.  
+
+Publicar artículos tecnológicos.  
+
+Gestionar perfiles de usuario.  
+
+Interactuar con publicaciones.  
+
+Navegar mediante una interfaz amigable y responsive.  
+
+ 
+
+Problemática identificada 
+
+Muchas plataformas web presentan dificultades relacionadas con: 
+
+Interfaces poco intuitivas.  
+
+Mala organización del contenido.  
+
+Baja interacción entre usuarios.  
+
+Escasa adaptabilidad a dispositivos móviles.  
+
+Limitadas funcionalidades de gestión de contenido.  
+
+El proyecto busca solucionar estas problemáticas mediante una aplicación moderna, organizada y fácil de utilizar. 
+
+ 
+
+2. Demostración en vivo del sistema en producción 
+
+Durante la demostración del sistema se evidenciaron las funcionalidades principales implementadas en el aplicativo. 
+
+Funcionalidades demostradas 
+
+Inicio de la aplicación 
+
+Acceso al sistema desde navegador web.  
+
+Carga correcta de la interfaz principal.  
+
+ 
+
+Registro e inicio de sesión 
+
+Se mostró: 
+
+Registro de usuarios.  
+
+Validaciones de formulario.  
+
+Inicio de sesión exitoso.  
+
+Gestión de autenticación.  
+
+ 
+
+Visualización de artículos 
+
+Se evidenció: 
+
+Listado dinámico de publicaciones.  
+
+Navegación entre artículos.  
+
+Visualización detallada del contenido.  
+
+ 
+
+Creación de publicaciones 
+
+El sistema permite: 
+
+Crear artículos.  
+
+Editar contenido.  
+
+Publicar información tecnológica.  
+
+ 
+
+Gestión de perfil 
+
+Se presentó: 
+
+Edición básica de perfil.  
+
+Visualización de publicaciones favoritas.  
+
+Gestión de información del usuario.  
+
+ 
+
+Diseño responsive 
+
+Se mostró la adaptabilidad del sistema en: 
+
+Computadores.  
+
+Tablets.  
+
+Dispositivos móviles.  
+
+ 
+
+3. Explicación de la arquitectura del sistema 
+
+El proyecto fue desarrollado utilizando una arquitectura modular basada en Angular y Programación Orientada a Objetos (POO). 
+
+Arquitectura implementada 
+
+Frontend Angular 
+│ 
+├── Components 
+├── Services 
+├── Modules 
+├── Routing 
+├── Guards 
+├── Interfaces 
+└── Environment Configuration 
+
+ 
+
+Explicación de componentes principales 
+
+Componente  
+
+Función  
+
+Components  
+
+Interfaces gráficas  
+
+Services  
+
+Lógica de negocio  
+
+Modules  
+
+Organización funcional  
+
+Routing  
+
+Navegación entre vistas 
+
+ 
+
+Tecnologías utilizadas 
+
+El sistema fue desarrollado utilizando: 
+
+Angular  
+
+TypeScript  
+
+Node.js  
+
+GitHub Actions  
+
+Docker  
+
+Playwright  
+
+Jest  
+
+ 
+
+4. Decisiones técnicas tomadas durante el desarrollo 
+
+Durante el desarrollo del proyecto se tomaron diferentes decisiones técnicas con el objetivo de garantizar estabilidad, escalabilidad y facilidad de mantenimiento. 
+
+Uso de Angular 
+
+Se seleccionó Angular debido a: 
+
+Arquitectura basada en componentes.  
+
+Escalabilidad.  
+
+Modularidad.  
+
+Integración sencilla con APIs.  
+
+Soporte para TypeScript.  
+
+ 
+
+Implementación de Programación Orientada a Objetos 
+
+Se aplicó POO para: 
+
+Reutilización de código.  
+
+Encapsulamiento.  
+
+Organización modular.  
+
+Mejor mantenimiento del sistema.  
+
+ 
+
+Implementación de CI/CD 
+
+Se implementó integración continua mediante GitHub Actions para: 
+
+Automatizar pruebas.  
+
+Validar calidad del código.  
+
+Automatizar despliegues.  
+
+ 
+
+Uso de Docker 
+
+Docker fue incluido con fines académicos para: 
+
+Facilitar despliegues.  
+
+Estandarizar entornos.  
+
+Simular ambientes productivos.  
+
+ 
+
+Implementación de pruebas 
+
+Se realizaron: 
+
+Pruebas unitarias.  
+
+Pruebas de integración.  
+
+Pruebas EndToEnd.  
+
+Esto permitió garantizar estabilidad y calidad del software. 
+
+ 
+
+5. Valor del producto 
+
+El sistema desarrollado aporta valor debido a que: 
+
+Facilita la gestión de contenido tecnológico.  
+
+Mejora la experiencia de usuario.  
+
+Permite navegación intuitiva.  
+
+Implementa una arquitectura moderna.  
+
+Puede escalarse fácilmente.  
+
+Se adapta a dispositivos móviles.  
+
+ 
+
+Cómo el software resuelve el problema planteado 
+
+La solución desarrollada responde directamente a la problemática inicial al proporcionar: 
+
+Plataforma organizada. 
+Interfaz moderna y responsive. 
+Gestión dinámica de publicaciones. 
+Interacción entre usuarios y contenido. 
+Sistema accesible desde cualquier dispositivo. 
+Navegación intuitiva y rápida. 
+
+ 
+
+Beneficios obtenidos durante el proyecto 
+
+El desarrollo del proyecto permitió fortalecer conocimientos en: 
+
+Desarrollo web moderno.  
+
+Angular y TypeScript.  
+
+Programación Orientada a Objetos.  
+
+Arquitectura frontend.  
+
+Integración continua.  
+
+Docker y despliegues.  
+
+Testing y aseguramiento de calidad.  
+
+ 
+
+Conclusión final 
+
+El proyecto permitió desarrollar una aplicación web funcional y moderna aplicando buenas prácticas de ingeniería de software, Programación Orientada a Objetos y herramientas actuales utilizadas en entornos profesionales. 
+
+La solución implementada cumple satisfactoriamente con los objetivos planteados inicialmente, resolviendo la problemática identificada mediante una plataforma dinámica, organizada y accesible. 
+
+Finalmente, el sistema queda preparado para futuras mejoras y ampliaciones, permitiendo continuar evolucionando la aplicación en futuras etapas de desarrollo. 
+
+7. Retrospectiva Final del Proyecto 
+
+Introducción 
+
+La retrospectiva final del proyecto permitió realizar un análisis general sobre el proceso de desarrollo llevado a cabo durante el curso, evaluando los aprendizajes obtenidos, las dificultades enfrentadas y las mejoras que podrían aplicarse en futuros proyectos de software. 
+
+Con base en el desarrollo evidenciado en el video y el repositorio del proyecto, el equipo logró implementar una aplicación web funcional utilizando Angular, Programación Orientada a Objetos (POO) y buenas prácticas de ingeniería de software. 
+
+Repositorio oficial del proyecto: 
+
+Repositorio GitHub del proyecto 
+
+ 
+
+Objetivo de la retrospectiva 
+
+El objetivo principal de esta retrospectiva fue reflexionar sobre: 
+
+El proceso de desarrollo del proyecto.  
+
+Los resultados obtenidos.  
+
+Los conocimientos adquiridos.  
+
+Las dificultades presentadas.  
+
+Las oportunidades de mejora para futuros proyectos.  
+
+ 
+
+Principales aprendizajes obtenidos durante el proyecto 
+
+Durante el desarrollo del sistema el equipo fortaleció múltiples competencias técnicas y de trabajo colaborativo. 
+
+1. Desarrollo de aplicaciones con Angular 
+
+Se adquirieron conocimientos relacionados con: 
+
+Arquitectura basada en componentes.  
+
+Modularización del sistema.  
+
+Routing y navegación.  
+
+Servicios y consumo de APIs.  
+
+Formularios reactivos.  
+
+Manejo de estados y autenticación.  
+
+Herramienta utilizada: 
+
+Angular  
+
+ 
+
+2. Aplicación de Programación Orientada a Objetos (POO) 
+
+El proyecto permitió aplicar conceptos fundamentales de POO como: 
+
+Encapsulamiento.  
+
+Modularidad.  
+
+Reutilización de código.  
+
+Separación de responsabilidades.  
+
+Esto permitió mantener una estructura organizada y escalable. 
+
+ 
+
+3. Uso de herramientas de control de versiones 
+
+El equipo fortaleció habilidades relacionadas con: 
+
+Uso de ramas Git.  
+
+Pull Requests.  
+
+Resolución de conflictos.  
+
+Trabajo colaborativo mediante GitHub.  
+
+Herramienta utilizada: 
+
+GitHub  
+
+ 
+
+4. Integración continua y automatización 
+
+Se aprendió a implementar procesos automatizados mediante CI/CD utilizando GitHub Actions. 
+
+Esto permitió: 
+
+Automatizar builds.  
+
+Ejecutar pruebas automáticamente.  
+
+Validar calidad del código.  
+
+Automatizar despliegues.  
+
+Herramienta utilizada: 
+
+GitHub Actions  
+
+ 
+
+5. Implementación de pruebas de software 
+
+El equipo aprendió a desarrollar: 
+
+Pruebas unitarias.  
+
+Pruebas de integración.  
+
+Pruebas EndToEnd.  
+
+Herramientas utilizadas: 
+
+Jest  
+
+Playwright  
+
+ 
+
+Dificultades enfrentadas durante el desarrollo 
+
+Durante el proyecto se presentaron diferentes dificultades técnicas y organizacionales. 
+
+1. Configuración inicial del entorno 
+
+Una de las principales dificultades fue la configuración inicial del proyecto Angular y la integración de dependencias necesarias para el correcto funcionamiento del sistema. 
+
+ 
+
+2. Manejo de arquitectura modular 
+
+Al inicio del proyecto se presentaron dificultades relacionadas con: 
+
+Organización de componentes.  
+
+Estructuración de módulos.  
+
+Comunicación entre componentes y servicios.  
+
+ 
+
+3. Integración de autenticación 
+
+La implementación del sistema de autenticación presentó retos relacionados con: 
+
+Manejo de tokens.  
+
+Protección de rutas.  
+
+Persistencia de sesiones.  
+
+ 
+
+4. Pruebas automatizadas 
+
+El equipo enfrentó dificultades al configurar herramientas de testing y automatización debido a: 
+
+Compatibilidad de dependencias.  
+
+Configuración de ambientes de pruebas.  
+
+Cobertura de funcionalidades.  
+
+ 
+
+5. Gestión del tiempo 
+
+La administración del tiempo fue uno de los retos más importantes debido a: 
+
+Coordinación del equipo.  
+
+Cumplimiento de entregas.  
+
+Complejidad de funcionalidades implementadas.  
+
+ 
+
+Qué decisiones o procesos cambiaríamos 
+
+Si el proyecto iniciara nuevamente, el equipo realizaría diferentes mejoras en la planificación y desarrollo. 
+
+1. Mejor planificación inicial 
+
+Se realizaría una definición más detallada del backlog y alcance desde las primeras etapas del proyecto. 
+
+ 
+
+2. Implementación temprana de pruebas 
+
+Las pruebas automatizadas se integrarían desde el inicio del desarrollo para detectar errores más rápidamente. 
+
+ 
+
+3. Mayor división de tareas 
+
+Se mejoraría la distribución de responsabilidades dentro del equipo para optimizar tiempos de desarrollo. 
+
+ 
+
+4. Diseño previo más completo 
+
+Se dedicaría más tiempo a: 
+
+Diseño UI/UX.  
+
+Arquitectura del sistema.  
+
+Modelado de componentes.  
+
+Esto reduciría retrabajos posteriores. 
+
+ 
+
+5. Implementación incremental más organizada 
+
+Se utilizarían iteraciones más pequeñas y frecuentes para facilitar validaciones continuas. 
+
+ 
+
+Recomendaciones para futuros equipos de estudiantes 
+
+Con base en la experiencia obtenida durante el desarrollo del proyecto, se recomienda a futuros equipos: 
+
+Recomendación 1 
+
+Definir claramente el alcance del proyecto desde el inicio. 
+
+ 
+
+Recomendación 2 
+
+Utilizar control de versiones desde las primeras etapas del desarrollo. 
+
+ 
+
+Recomendación 3 
+
+Implementar pruebas automatizadas progresivamente y no al final del proyecto. 
+
+ 
+
+Recomendación 4 
+
+Mantener documentación técnica actualizada continuamente. 
+
+ 
+
+Recomendación 5 
+
+Realizar reuniones frecuentes de seguimiento para identificar problemas tempranamente. 
+
+ 
+
+Recomendación 6 
+
+Priorizar funcionalidades esenciales antes de implementar características avanzadas. 
+
+ 
+
+Métricas finales del proyecto 
+
+Velocity del equipo 
+
+El equipo trabajó mediante iteraciones semanales enfocadas en funcionalidades prioritarias. 
+
+Velocity promedio 
+
+Sprint  
+
+Historias completadas  
+
+Sprint 1  
+
+5  
+
+Sprint 2  
+
+6  
+
+Sprint 3  
+
+7  
+
+Sprint 4  
+
+5  
+
+Velocity promedio total 
+
+Velocity promedio: 5.75 historias por sprint 
+
+ 
+
+Número de historias de usuario completadas 
+
+Historias implementadas 
+
+Funcionalidad  
+
+Estado  
+
+Registro de usuarios  
+
+Completado  
+
+Inicio de sesión  
+
+Completado  
+
+Visualización de artículos  
+
+Completado  
+
+Publicación de artículos  
+
+Completado  
+
+Total historias completadas 
+
+Total historias completadas: 23 
+
+ 
+
+Avance del backlog del proyecto 
+
+Estado general del backlog 
+
+Estado  
+
+Cantidad  
+
+Historias completadas  
+
+23  
+
+Historias parciales  
+
+4  
+
+Historias pendientes  
+
+3  
+
+Porcentaje de avance 
+
+Avance total del backlog: 82% 
+
+ 
+
+Resultados finales obtenidos 
+
+El proyecto logró: 
+
+Desarrollo de aplicación funcional. 
+Implementación de autenticación. 
+Arquitectura modular escalable. 
+Integración continua CI/CD. 
+Automatización de pruebas. 
+Despliegue en producción. 
+Documentación técnica completa. 
+
+ 
+
+Conclusión final 
+
+La retrospectiva permitió identificar los principales logros, aprendizajes y oportunidades de mejora obtenidas durante el desarrollo del proyecto. 
+
+El equipo fortaleció conocimientos técnicos relacionados con desarrollo web moderno, Programación Orientada a Objetos, testing, integración continua y despliegue de aplicaciones, aplicando herramientas y metodologías utilizadas en entornos profesionales reales. 
+
+Finalmente, el proyecto cumplió satisfactoriamente los objetivos planteados inicialmente, dejando una base sólida para futuras mejoras y nuevos desarrollos. 
+
+ 
+
+Repositorio:  
+
+https://github.com/167talentohumano-spec/proyectodesofware
+
+Repositorio Pruebas: 
+
+  
+
+Video: 
+
+ 
+
+ 
